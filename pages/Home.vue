@@ -84,27 +84,24 @@ export default {
     return {
       heroes: [
         {
-          title: 'Colorful summer dresses are already in store',
-          subtitle: 'SUMMER COLLECTION 2019',
+          title: 'Visit our store in telegram',
           buttonText: 'Learn more',
           background: '#eceff1',
-          image: '/homepage/bannerH.webp'
+          image: '/homepage/banner-1.jpg'
         },
         {
-          title: 'Colorful summer dresses are already in store',
-          subtitle: 'SUMMER COLLECTION 2019',
+          title: 'Fresh herbs are already in store',
           buttonText: 'Learn more',
           background: '#efebe9',
-          image: '/homepage/bannerA.webp',
+          image: '/homepage/banner-2.jpg',
           className:
             'sf-hero-item--position-bg-top-left sf-hero-item--align-right'
         },
         {
-          title: 'Colorful summer dresses are already in store',
-          subtitle: 'SUMMER COLLECTION 2019',
+          title: 'Summer tomatoes are already in store',
           buttonText: 'Learn more',
           background: '#fce4ec',
-          image: '/homepage/bannerB.webp'
+          image: '/homepage/banner-3.jpg'
         }
       ],
       banners: [
