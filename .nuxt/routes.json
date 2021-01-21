@@ -1,0 +1,372 @@
+[
+  {
+    "name": "Category___en",
+    "path": "/Category",
+    "component": "/home/aleksandr/Documents/EPAM/machaton/pages/Category.vue",
+    "chunkName": "pages/Category",
+    "_name": "_289541a6"
+  },
+  {
+    "name": "checkout___en",
+    "path": "/checkout",
+    "component": "/home/aleksandr/Documents/EPAM/machaton/pages/Checkout.vue",
+    "children": [
+      {
+        "path": "order-review",
+        "name": "order-review___en",
+        "component": "/home/aleksandr/Documents/EPAM/machaton/pages/Checkout/OrderReview.vue",
+        "_name": "_20cf7de8"
+      },
+      {
+        "path": "payment",
+        "name": "payment___en",
+        "component": "/home/aleksandr/Documents/EPAM/machaton/pages/Checkout/Payment.vue",
+        "_name": "_224721cc"
+      },
+      {
+        "path": "personal-details",
+        "name": "personal-details___en",
+        "component": "/home/aleksandr/Documents/EPAM/machaton/pages/Checkout/PersonalDetails.vue",
+        "_name": "_497b20b0"
+      },
+      {
+        "path": "shipping",
+        "name": "shipping___en",
+        "component": "/home/aleksandr/Documents/EPAM/machaton/pages/Checkout/Shipping.vue",
+        "_name": "_2f1c5ed8"
+      },
+      {
+        "path": "thank-you",
+        "name": "thank-you___en",
+        "component": "/home/aleksandr/Documents/EPAM/machaton/pages/Checkout/ThankYou.vue",
+        "_name": "_18aa2a7f"
+      }
+    ],
+    "_name": "_297c8b75"
+  },
+  {
+    "name": "Checkout___en",
+    "path": "/Checkout",
+    "component": "/home/aleksandr/Documents/EPAM/machaton/pages/Checkout.vue",
+    "chunkName": "pages/Checkout",
+    "children": [
+      {
+        "name": "Checkout-OrderReview___en",
+        "path": "OrderReview",
+        "component": "/home/aleksandr/Documents/EPAM/machaton/pages/Checkout/OrderReview.vue",
+        "chunkName": "pages/Checkout/OrderReview",
+        "_name": "_20cf7de8"
+      },
+      {
+        "name": "Checkout-Payment___en",
+        "path": "Payment",
+        "component": "/home/aleksandr/Documents/EPAM/machaton/pages/Checkout/Payment.vue",
+        "chunkName": "pages/Checkout/Payment",
+        "_name": "_224721cc"
+      },
+      {
+        "name": "Checkout-PersonalDetails___en",
+        "path": "PersonalDetails",
+        "component": "/home/aleksandr/Documents/EPAM/machaton/pages/Checkout/PersonalDetails.vue",
+        "chunkName": "pages/Checkout/PersonalDetails",
+        "_name": "_497b20b0"
+      },
+      {
+        "name": "Checkout-Shipping___en",
+        "path": "Shipping",
+        "component": "/home/aleksandr/Documents/EPAM/machaton/pages/Checkout/Shipping.vue",
+        "chunkName": "pages/Checkout/Shipping",
+        "_name": "_2f1c5ed8"
+      },
+      {
+        "name": "Checkout-ThankYou___en",
+        "path": "ThankYou",
+        "component": "/home/aleksandr/Documents/EPAM/machaton/pages/Checkout/ThankYou.vue",
+        "chunkName": "pages/Checkout/ThankYou",
+        "_name": "_18aa2a7f"
+      }
+    ],
+    "_name": "_297c8b75"
+  },
+  {
+    "name": "home___de",
+    "path": "/de",
+    "component": "/home/aleksandr/Documents/EPAM/machaton/pages/Home.vue",
+    "_name": "_4cc0bbe4"
+  },
+  {
+    "name": "Home___en",
+    "path": "/Home",
+    "component": "/home/aleksandr/Documents/EPAM/machaton/pages/Home.vue",
+    "chunkName": "pages/Home",
+    "_name": "_4cc0bbe4"
+  },
+  {
+    "name": "MyAccount___en",
+    "path": "/MyAccount",
+    "component": "/home/aleksandr/Documents/EPAM/machaton/pages/MyAccount.vue",
+    "chunkName": "pages/MyAccount",
+    "children": [
+      {
+        "name": "MyAccount-BillingDetails___en",
+        "path": "BillingDetails",
+        "component": "/home/aleksandr/Documents/EPAM/machaton/pages/MyAccount/BillingDetails.vue",
+        "chunkName": "pages/MyAccount/BillingDetails",
+        "_name": "_2da53d04"
+      },
+      {
+        "name": "MyAccount-LoyaltyCard___en",
+        "path": "LoyaltyCard",
+        "component": "/home/aleksandr/Documents/EPAM/machaton/pages/MyAccount/LoyaltyCard.vue",
+        "chunkName": "pages/MyAccount/LoyaltyCard",
+        "_name": "_6ad3e389"
+      },
+      {
+        "name": "MyAccount-MyNewsletter___en",
+        "path": "MyNewsletter",
+        "component": "/home/aleksandr/Documents/EPAM/machaton/pages/MyAccount/MyNewsletter.vue",
+        "chunkName": "pages/MyAccount/MyNewsletter",
+        "_name": "_4b866382"
+      },
+      {
+        "name": "MyAccount-MyProfile___en",
+        "path": "MyProfile",
+        "component": "/home/aleksandr/Documents/EPAM/machaton/pages/MyAccount/MyProfile.vue",
+        "chunkName": "pages/MyAccount/MyProfile",
+        "_name": "_5363b4b0"
+      },
+      {
+        "name": "MyAccount-MyReviews___en",
+        "path": "MyReviews",
+        "component": "/home/aleksandr/Documents/EPAM/machaton/pages/MyAccount/MyReviews.vue",
+        "chunkName": "pages/MyAccount/MyReviews",
+        "_name": "_ca32d3bc"
+      },
+      {
+        "name": "MyAccount-OrderHistory___en",
+        "path": "OrderHistory",
+        "component": "/home/aleksandr/Documents/EPAM/machaton/pages/MyAccount/OrderHistory.vue",
+        "chunkName": "pages/MyAccount/OrderHistory",
+        "_name": "_26cb84e3"
+      },
+      {
+        "name": "MyAccount-ShippingDetails___en",
+        "path": "ShippingDetails",
+        "component": "/home/aleksandr/Documents/EPAM/machaton/pages/MyAccount/ShippingDetails.vue",
+        "chunkName": "pages/MyAccount/ShippingDetails",
+        "_name": "_36ddcb47"
+      }
+    ],
+    "_name": "_412f2942"
+  },
+  {
+    "name": "Product___en",
+    "path": "/Product",
+    "component": "/home/aleksandr/Documents/EPAM/machaton/pages/Product.vue",
+    "chunkName": "pages/Product",
+    "_name": "_30c3bae0"
+  },
+  {
+    "name": "Category___de",
+    "path": "/de/Category",
+    "component": "/home/aleksandr/Documents/EPAM/machaton/pages/Category.vue",
+    "chunkName": "pages/Category",
+    "_name": "_289541a6"
+  },
+  {
+    "name": "checkout___de",
+    "path": "/de/checkout",
+    "component": "/home/aleksandr/Documents/EPAM/machaton/pages/Checkout.vue",
+    "children": [
+      {
+        "path": "order-review",
+        "name": "order-review___de",
+        "component": "/home/aleksandr/Documents/EPAM/machaton/pages/Checkout/OrderReview.vue",
+        "_name": "_20cf7de8"
+      },
+      {
+        "path": "payment",
+        "name": "payment___de",
+        "component": "/home/aleksandr/Documents/EPAM/machaton/pages/Checkout/Payment.vue",
+        "_name": "_224721cc"
+      },
+      {
+        "path": "personal-details",
+        "name": "personal-details___de",
+        "component": "/home/aleksandr/Documents/EPAM/machaton/pages/Checkout/PersonalDetails.vue",
+        "_name": "_497b20b0"
+      },
+      {
+        "path": "shipping",
+        "name": "shipping___de",
+        "component": "/home/aleksandr/Documents/EPAM/machaton/pages/Checkout/Shipping.vue",
+        "_name": "_2f1c5ed8"
+      },
+      {
+        "path": "thank-you",
+        "name": "thank-you___de",
+        "component": "/home/aleksandr/Documents/EPAM/machaton/pages/Checkout/ThankYou.vue",
+        "_name": "_18aa2a7f"
+      }
+    ],
+    "_name": "_297c8b75"
+  },
+  {
+    "name": "Checkout___de",
+    "path": "/de/Checkout",
+    "component": "/home/aleksandr/Documents/EPAM/machaton/pages/Checkout.vue",
+    "chunkName": "pages/Checkout",
+    "children": [
+      {
+        "name": "Checkout-OrderReview___de",
+        "path": "OrderReview",
+        "component": "/home/aleksandr/Documents/EPAM/machaton/pages/Checkout/OrderReview.vue",
+        "chunkName": "pages/Checkout/OrderReview",
+        "_name": "_20cf7de8"
+      },
+      {
+        "name": "Checkout-Payment___de",
+        "path": "Payment",
+        "component": "/home/aleksandr/Documents/EPAM/machaton/pages/Checkout/Payment.vue",
+        "chunkName": "pages/Checkout/Payment",
+        "_name": "_224721cc"
+      },
+      {
+        "name": "Checkout-PersonalDetails___de",
+        "path": "PersonalDetails",
+        "component": "/home/aleksandr/Documents/EPAM/machaton/pages/Checkout/PersonalDetails.vue",
+        "chunkName": "pages/Checkout/PersonalDetails",
+        "_name": "_497b20b0"
+      },
+      {
+        "name": "Checkout-Shipping___de",
+        "path": "Shipping",
+        "component": "/home/aleksandr/Documents/EPAM/machaton/pages/Checkout/Shipping.vue",
+        "chunkName": "pages/Checkout/Shipping",
+        "_name": "_2f1c5ed8"
+      },
+      {
+        "name": "Checkout-ThankYou___de",
+        "path": "ThankYou",
+        "component": "/home/aleksandr/Documents/EPAM/machaton/pages/Checkout/ThankYou.vue",
+        "chunkName": "pages/Checkout/ThankYou",
+        "_name": "_18aa2a7f"
+      }
+    ],
+    "_name": "_297c8b75"
+  },
+  {
+    "name": "Home___de",
+    "path": "/de/Home",
+    "component": "/home/aleksandr/Documents/EPAM/machaton/pages/Home.vue",
+    "chunkName": "pages/Home",
+    "_name": "_4cc0bbe4"
+  },
+  {
+    "name": "MyAccount___de",
+    "path": "/de/MyAccount",
+    "component": "/home/aleksandr/Documents/EPAM/machaton/pages/MyAccount.vue",
+    "chunkName": "pages/MyAccount",
+    "children": [
+      {
+        "name": "MyAccount-BillingDetails___de",
+        "path": "BillingDetails",
+        "component": "/home/aleksandr/Documents/EPAM/machaton/pages/MyAccount/BillingDetails.vue",
+        "chunkName": "pages/MyAccount/BillingDetails",
+        "_name": "_2da53d04"
+      },
+      {
+        "name": "MyAccount-LoyaltyCard___de",
+        "path": "LoyaltyCard",
+        "component": "/home/aleksandr/Documents/EPAM/machaton/pages/MyAccount/LoyaltyCard.vue",
+        "chunkName": "pages/MyAccount/LoyaltyCard",
+        "_name": "_6ad3e389"
+      },
+      {
+        "name": "MyAccount-MyNewsletter___de",
+        "path": "MyNewsletter",
+        "component": "/home/aleksandr/Documents/EPAM/machaton/pages/MyAccount/MyNewsletter.vue",
+        "chunkName": "pages/MyAccount/MyNewsletter",
+        "_name": "_4b866382"
+      },
+      {
+        "name": "MyAccount-MyProfile___de",
+        "path": "MyProfile",
+        "component": "/home/aleksandr/Documents/EPAM/machaton/pages/MyAccount/MyProfile.vue",
+        "chunkName": "pages/MyAccount/MyProfile",
+        "_name": "_5363b4b0"
+      },
+      {
+        "name": "MyAccount-MyReviews___de",
+        "path": "MyReviews",
+        "component": "/home/aleksandr/Documents/EPAM/machaton/pages/MyAccount/MyReviews.vue",
+        "chunkName": "pages/MyAccount/MyReviews",
+        "_name": "_ca32d3bc"
+      },
+      {
+        "name": "MyAccount-OrderHistory___de",
+        "path": "OrderHistory",
+        "component": "/home/aleksandr/Documents/EPAM/machaton/pages/MyAccount/OrderHistory.vue",
+        "chunkName": "pages/MyAccount/OrderHistory",
+        "_name": "_26cb84e3"
+      },
+      {
+        "name": "MyAccount-ShippingDetails___de",
+        "path": "ShippingDetails",
+        "component": "/home/aleksandr/Documents/EPAM/machaton/pages/MyAccount/ShippingDetails.vue",
+        "chunkName": "pages/MyAccount/ShippingDetails",
+        "_name": "_36ddcb47"
+      }
+    ],
+    "_name": "_412f2942"
+  },
+  {
+    "name": "Product___de",
+    "path": "/de/Product",
+    "component": "/home/aleksandr/Documents/EPAM/machaton/pages/Product.vue",
+    "chunkName": "pages/Product",
+    "_name": "_30c3bae0"
+  },
+  {
+    "name": "my-account___de",
+    "path": "/de/my-account/:pageName?",
+    "component": "/home/aleksandr/Documents/EPAM/machaton/pages/MyAccount.vue",
+    "_name": "_412f2942"
+  },
+  {
+    "name": "product___de",
+    "path": "/de/p/:id/:slug",
+    "component": "/home/aleksandr/Documents/EPAM/machaton/pages/Product.vue",
+    "_name": "_30c3bae0"
+  },
+  {
+    "name": "category___de",
+    "path": "/de/c/:slug_1/:slug_2?/:slug_3?/:slug_4?/:slug_5?",
+    "component": "/home/aleksandr/Documents/EPAM/machaton/pages/Category.vue",
+    "_name": "_289541a6"
+  },
+  {
+    "name": "my-account___en",
+    "path": "/my-account/:pageName?",
+    "component": "/home/aleksandr/Documents/EPAM/machaton/pages/MyAccount.vue",
+    "_name": "_412f2942"
+  },
+  {
+    "name": "product___en",
+    "path": "/p/:id/:slug",
+    "component": "/home/aleksandr/Documents/EPAM/machaton/pages/Product.vue",
+    "_name": "_30c3bae0"
+  },
+  {
+    "name": "category___en",
+    "path": "/c/:slug_1/:slug_2?/:slug_3?/:slug_4?/:slug_5?",
+    "component": "/home/aleksandr/Documents/EPAM/machaton/pages/Category.vue",
+    "_name": "_289541a6"
+  },
+  {
+    "name": "home___en",
+    "path": "/",
+    "component": "/home/aleksandr/Documents/EPAM/machaton/pages/Home.vue",
+    "_name": "_4cc0bbe4"
+  }
+]
