@@ -19,8 +19,8 @@
     </template>
     <template #navigation>
       <SfHeaderNavigationItem class="nav-item" data-cy="app-header-url_women" label="Snacks, Cookies & Chips" :link="localePath('/c/snacks-cookies-chips')" />
-      <SfHeaderNavigationItem class="nav-item"  data-cy="app-header-url_men" label="MEN" :link="localePath('/c/men')" />
-      <SfHeaderNavigationItem class="nav-item" data-cy="app-header-url_kids" label="KIDS" :link="localePath('/c/kids')" />
+      <SfHeaderNavigationItem class="nav-item"  data-cy="app-header-url_men" label="Healthy Snacks" :link="localePath('/c/healthy-snacks')" />
+      <SfHeaderNavigationItem class="nav-item" data-cy="app-header-url_kids" label="Test" :link="localePath('/c/test')" />
     </template>
     <template #aside>
       <LocaleSelector class="smartphone-only" />
