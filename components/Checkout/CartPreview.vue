@@ -29,7 +29,7 @@
         class="sf-property--full-width sf-property--large property-total"
       />
     </div>
-    <div class="highlighted promo-code">
+    <!-- <div class="highlighted promo-code">
       <SfInput
         data-cy="cart-preview-input_promoCode"
         v-model="promoCode"
@@ -38,7 +38,7 @@
         class="sf-input--filled promo-code__input"
       />
       <SfButton class="promo-code__button">Apply</SfButton>
-    </div>
+    </div> -->
     <div class="highlighted">
       <SfCharacteristic
         v-for="characteristic in characteristics"
