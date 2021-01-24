@@ -7,11 +7,11 @@
     "access": "public"
   },
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build ",
+    "dev": "yarn dev",
+    "build": "yarn install ",
     "build:analyze": "nuxt build -a -m",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
+    "start": "yarn dev",
+    "generate": "yarn install",
     "test": "jest"
   },
   "dependencies": {
