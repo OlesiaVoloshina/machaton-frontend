@@ -90,7 +90,7 @@
                   :valid="!errors[0]"
                   :errorMessage="errors[0]"
                   name="first-name"
-                  label="First Name"
+                  label="What is your name?"
                   class="form__element"
                 />
               </ValidationProvider>
@@ -101,7 +101,7 @@
                   :valid="!errors[0]"
                   :errorMessage="errors[0]"
                   name="last-name"
-                  label="Last Name"
+                  label="Put connection code to the telegram bot"
                   class="form__element"
                 />
               </ValidationProvider>
