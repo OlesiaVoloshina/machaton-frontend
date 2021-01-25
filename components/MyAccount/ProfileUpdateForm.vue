@@ -7,7 +7,7 @@
             data-cy="my-profile-input_firstName"
             v-model="form.firstName"
             name="firstName"
-            label="First Name"
+            label="Your name"
             required
             :valid="!errors[0]"
             :errorMessage="errors[0]"
@@ -18,7 +18,8 @@
             data-cy="my-profile-input_lastName"
             v-model="form.lastName"
             name="lastName"
-            label="Last Name"
+            label="Connection code to the telegram bot"
+            disabled = true
             required
             :valid="!errors[0]"
             :errorMessage="errors[0]"
