@@ -22,17 +22,6 @@
               </ValidationProvider>
               <ValidationProvider rules="required" v-slot="{ errors }">
                 <SfInput
-                  data-cy="login-input_telegramId"
-                  v-model="form.telegram"
-                  :valid="!errors[0]"
-                  :errorMessage="errors[0]"
-                  name="telegramId"
-                  label="Your telegram login"
-                  class="form__element"
-                />
-              </ValidationProvider>
-              <ValidationProvider rules="required" v-slot="{ errors }">
-                <SfInput
                   data-cy="login-input_password"
                   v-model="form.password"
                   :valid="!errors[0]"
@@ -102,17 +91,6 @@
                   :errorMessage="errors[0]"
                   name="last-name"
                   label="Put connection code to the telegram bot"
-                  class="form__element"
-                />
-              </ValidationProvider>
-              <ValidationProvider rules="required" v-slot="{ errors }">
-                <SfInput
-                  data-cy="login-input_telegramId"
-                  v-model="form.telegram"
-                  :valid="!errors[0]"
-                  :errorMessage="errors[0]"
-                  name="telegramId"
-                  label="Your telegram login"
                   class="form__element"
                 />
               </ValidationProvider>

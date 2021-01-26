@@ -26,19 +26,6 @@
           />
         </ValidationProvider>
       </div>
-      <div class="form__horizontal">
-        <ValidationProvider rules="required|min:2" v-slot="{ errors }" class="form__element">
-          <SfInput
-            data-cy="my-profile-input_telegram"
-            v-model="form.telegram"
-            name="telegram"
-            label="Telegram login"
-            required
-            :valid="!errors[0]"
-            :errorMessage="errors[0]"
-          />
-        </ValidationProvider>
-      </div>
       <ValidationProvider rules="required|email" v-slot="{ errors }" class="form__element">
         <SfInput
           data-cy="my-profile-input_email"
