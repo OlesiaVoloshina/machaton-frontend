@@ -73,7 +73,7 @@ export default {
   data() {
     return {
       aboutUs: ['Who we are', 'Quality in the details', 'Customer Reviews'],
-      departments: ['Women fashion', 'Men fashion', 'Kidswear', 'Home'],
+      departments: ['Vegetables', 'Bread', 'Milk', 'Home'],
       help: ['Customer service', 'Size guide', 'Contact us'],
       paymentsDelivery: ['Purchase terms', 'Guarantee'],
       social: ['facebook', 'pinterest', 'twitter', 'youtube'],

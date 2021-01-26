@@ -17,11 +17,11 @@
         <SfImage src="/icons/logo.svg" alt="Vue Storefront Next" class="sf-header__logo-image"/>
       </nuxt-link>
     </template>
-    <template #navigation>
+    <!-- <template #navigation>
       <SfHeaderNavigationItem class="nav-item" data-cy="app-header-url_women" label="Snacks, Cookies & Chips" :link="localePath('/c/snacks-cookies-chips')" />
       <SfHeaderNavigationItem class="nav-item"  data-cy="app-header-url_men" label="Healthy Snacks" :link="localePath('/c/healthy-snacks')" />
       <SfHeaderNavigationItem class="nav-item" data-cy="app-header-url_kids" label="Test" :link="localePath('/c/test')" />
-    </template>
+    </template> -->
     <template #aside>
       <LocaleSelector class="smartphone-only" />
     </template>

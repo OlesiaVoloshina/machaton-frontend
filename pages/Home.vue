@@ -9,10 +9,11 @@
         :button-text="hero.buttonText"
         :background="hero.background"
         :image="hero.image"
+        :link="hero.link"
         :class="hero.className"
       />
     </SfHero>
-    <SfBannerGrid :banner-grid="1" class="section banner-grid">
+    <!-- <SfBannerGrid :banner-grid="1" class="section banner-grid">
       <template v-for="item in banners" v-slot:[item.slot]>
         <SfBanner
           :key="item.slot"
@@ -24,7 +25,7 @@
           :class="item.class"
         />
       </template>
-    </SfBannerGrid>
+    </SfBannerGrid> -->
     <SfCallToAction
       title="Subscribe to Newsletters"
       button-text="Subscribe"
@@ -51,7 +52,7 @@
         </SfCarouselItem>
       </SfCarousel>
     </SfSection>
-    <InstagramFeed />
+    <!-- <InstagramFeed /> -->
   </div>
 </template>
 <script>
@@ -85,22 +86,25 @@ export default {
       heroes: [
         {
           title: 'Visit our store in telegram',
-          buttonText: 'Learn more',
+          buttonText: 'Shop now!',
           background: '#eceff1',
+          link: 'https://telegram.me/BuyformeBot',
           image: '/homepage/banner-1.jpg'
         },
         {
           title: 'Fresh herbs are already in store',
-          buttonText: 'Learn more',
+          buttonText: 'Shop now!',
           background: '#efebe9',
+          link: 'https://telegram.me/BuyformeBot',
           image: '/homepage/banner-2.jpg',
           className:
             'sf-hero-item--position-bg-top-left sf-hero-item--align-right'
         },
         {
           title: 'Summer tomatoes are already in store',
-          buttonText: 'Learn more',
+          buttonText: 'Shop now!',
           background: '#fce4ec',
+          link: 'https://telegram.me/BuyformeBot',
           image: '/homepage/banner-3.jpg'
         }
       ],
@@ -145,58 +149,58 @@ export default {
       ],
       products: [
         {
-          title: 'Cream Beach Bag',
-          image: '/homepage/productA.webp',
-          price: { regular: '50.00 $' },
+          title: '1% Low-fat Milk, 1 Gallon',
+          image: '/grocery/1-milk.jpeg',
+          price: { regular: '2.46 $' },
           rating: { max: 5, score: 4 },
           isOnWishlist: true
         },
         {
-          title: 'Cream Beach Bag',
-          image: '/homepage/productB.webp',
-          price: { regular: '50.00 $' },
+          title: 'Seeds Organic Bread',
+          image: '/grocery/organic-bread.jpeg',
+          price: { regular: '4.64 $' },
           rating: { max: 5, score: 4 },
           isOnWishlist: false
         },
         {
-          title: 'Cream Beach Bag',
-          image: '/homepage/productC.webp',
-          price: { regular: '50.00 $' },
+          title: 'Yellow Potatoes, 5lb bag',
+          image: '/grocery/Yellow-Potatoes-5lb-bag.jpeg',
+          price: { regular: '3.47 $' },
           rating: { max: 5, score: 4 },
           isOnWishlist: false
         },
         {
-          title: 'Cream Beach Bag',
-          image: '/homepage/productA.webp',
-          price: { regular: '50.00 $' },
+          title: 'Grape Tomatoes',
+          image: '/grocery/Grape-Tomatoes.jpeg',
+          price: { regular: '1.78 $' },
           rating: { max: 5, score: 4 },
           isOnWishlist: false
         },
         {
-          title: 'Cream Beach Bag',
-          image: '/homepage/productB.webp',
-          price: { regular: '50.00 $' },
+          title: '2% Reduced-Fat Milk, 1 Gallon',
+          image: '/grocery/2-milk.jpeg',
+          price: { regular: '2.46 $' },
           rating: { max: 5, score: 4 },
           isOnWishlist: false
         },
         {
-          title: 'Cream Beach Bag',
-          image: '/homepage/productC.webp',
-          price: { regular: '50.00 $' },
+          title: 'Tomatoes on the Vine',
+          image: '/grocery/Cherub-Snacking-Tomatoes.jpeg',
+          price: { regular: '1.48 $' },
           rating: { max: 5, score: 4 },
           isOnWishlist: false
         },
         {
-          title: 'Cream Beach Bag',
-          image: '/homepage/productA.webp',
-          price: { regular: '50.00 $' },
+          title: 'Organic Whole Milk, Half Gallon',
+          image: '/grocery/organic-0.5.jpeg',
+          price: { regular: '3.98 $' },
           rating: { max: 5, score: 4 },
           isOnWishlist: false
         },
         {
-          title: 'Cream Beach Bag',
-          image: '/homepage/productB.webp',
-          price: { regular: '50.00 $' },
+          title: 'Whole Grains Oatnut Bread',
+          image: '/grocery/Whole-Grains-Oatnut-Bread.jpeg',
+          price: { regular: '2.98 $' },
           rating: { max: 5, score: 4 },
           isOnWishlist: false
         }
